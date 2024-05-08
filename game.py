@@ -33,7 +33,6 @@ def guess_num():
         guess = input("\n")
     return guess
 
-
 trycount = 4
 while trycount > 0:
     for user in range (len(users)):
